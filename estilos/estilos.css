@@ -1,0 +1,15 @@
+body {
+    margin: 0; /* sin margen*/
+    height: 100vh; /* Altura total de la ventana */
+    overflow: hidden; /* oculta las barrras de desplazamiento */
+    background-color: #ffffff;
+}
+#coche {
+    position: absolute; /* como vamos a poner las coordenadas concretas en la inicialización del coche, esto nos permite poner luego los valores de top, left, right y bottom */
+    top: 500px; /* número de píxeles para poner el coche desde arriba*/
+    left: 100px; /* Lo mismo, pero con la izquierda */
+    width: 100px; /* Y también definimos el tamaño del coche */
+    height: 100px;
+    background-image: url('./img/coche-derecha.png'); /* Como es la posición inicial, cojo la imagen del coche a la derecha por defecto*/
+    background-size: cover; /*que el tamaño del fondo cubra el espacio reservado por el div del id del coche*/
+}
